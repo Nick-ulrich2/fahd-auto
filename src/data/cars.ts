@@ -62,7 +62,7 @@ function car(c: Input): Car & { sold?: boolean } {
 const ALL = [
   car({
     slug: "toyota-land-cruiser-300", make: "Toyota", model: "Land Cruiser 300", trim: "GR Sport 3.3 V6 D-4D", generation: "J300",
-    year: 2022, firstRegistration: "2022-06", priceFrom: 94900, mileage: 38500,
+    year: 2022, firstRegistration: "2022-06", priceFrom: 31600, mileage: 38500,
     fuel: "diesel", transmission: "automatic", gears: 10, body: "suv", drivetrain: "4x4",
     engine: { displacement: 3346, cylinders: 6, layout: "V6", powerHp: 309, torqueNm: 700 },
     performance: { zeroTo100: 8.2, topSpeed: 210 }, consumption: 10.3, co2: 272, euroNorm: "Euro 5 (spéc. export)",
@@ -74,7 +74,7 @@ const ALL = [
   }),
   car({
     slug: "toyota-land-cruiser-prado", make: "Toyota", model: "Land Cruiser Prado", trim: "Lounge 2.8 D-4D", generation: "J150 (2018+)",
-    year: 2021, firstRegistration: "2021-03", priceFrom: 52900, mileage: 64200,
+    year: 2021, firstRegistration: "2021-03", priceFrom: 17600, mileage: 64200,
     fuel: "diesel", transmission: "automatic", gears: 6, body: "suv", drivetrain: "4x4",
     engine: { displacement: 2755, cylinders: 4, layout: "I4", powerHp: 204, torqueNm: 500 },
     performance: { zeroTo100: 9.9, topSpeed: 175 }, consumption: 9.6, co2: 252,
@@ -85,7 +85,7 @@ const ALL = [
   }),
   car({
     slug: "toyota-hilux", make: "Toyota", model: "Hilux", trim: "Double Cab Invincible 2.8 D-4D", generation: "AN120 (2020+)",
-    year: 2021, firstRegistration: "2021-09", priceFrom: 38900, mileage: 52300,
+    year: 2021, firstRegistration: "2021-09", priceFrom: 13000, mileage: 52300,
     fuel: "diesel", transmission: "automatic", gears: 6, body: "pickup", drivetrain: "4x4", doors: 4,
     engine: { displacement: 2755, cylinders: 4, layout: "I4", powerHp: 204, torqueNm: 500 },
     performance: { zeroTo100: 10.7, topSpeed: 175 }, consumption: 9.3, co2: 245,
@@ -96,7 +96,7 @@ const ALL = [
   }),
   car({
     slug: "toyota-rav4-hybrid", make: "Toyota", model: "RAV4", trim: "Style 2.5 Hybrid AWD-i", generation: "XA50",
-    year: 2021, firstRegistration: "2021-05", priceFrom: 31900, mileage: 48100,
+    year: 2021, firstRegistration: "2021-05", priceFrom: 10600, mileage: 48100,
     fuel: "hybrid", transmission: "automatic", gears: 0, body: "suv", drivetrain: "awd",
     engine: { displacement: 2487, cylinders: 4, layout: "I4", powerHp: 222, torqueNm: 221 },
     performance: { zeroTo100: 8.1, topSpeed: 180 }, consumption: 5.8, co2: 131,
@@ -106,7 +106,7 @@ const ALL = [
   }),
   car({
     slug: "toyota-corolla-sedan", make: "Toyota", model: "Corolla Sedan", trim: "Dynamic 1.8 Hybrid", generation: "E210",
-    year: 2021, firstRegistration: "2021-02", priceFrom: 19900, mileage: 55400,
+    year: 2021, firstRegistration: "2021-02", priceFrom: 6600, mileage: 55400,
     fuel: "hybrid", transmission: "automatic", gears: 0, body: "sedan", drivetrain: "fwd", doors: 4,
     engine: { displacement: 1798, cylinders: 4, layout: "I4", powerHp: 122, torqueNm: 142 },
     performance: { zeroTo100: 11.0, topSpeed: 180 }, consumption: 4.5, co2: 101,
@@ -116,7 +116,7 @@ const ALL = [
   }),
   car({
     slug: "toyota-camry", make: "Toyota", model: "Camry", trim: "Premium 2.5 Hybrid", generation: "XV70",
-    year: 2020, firstRegistration: "2020-07", priceFrom: 24900, mileage: 72300,
+    year: 2020, firstRegistration: "2020-07", priceFrom: 8300, mileage: 72300,
     fuel: "hybrid", transmission: "automatic", gears: 0, body: "sedan", drivetrain: "fwd", doors: 4,
     engine: { displacement: 2487, cylinders: 4, layout: "I4", powerHp: 218, torqueNm: 221 },
     performance: { zeroTo100: 8.3, topSpeed: 180 }, consumption: 5.3, co2: 120,
@@ -126,7 +126,7 @@ const ALL = [
   }),
   car({
     slug: "toyota-c-hr", make: "Toyota", model: "C-HR", trim: "C-ULT 1.8 Hybrid", generation: "AX10 (2020)",
-    year: 2020, firstRegistration: "2020-10", priceFrom: 21500, mileage: 41200,
+    year: 2020, firstRegistration: "2020-10", priceFrom: 7200, mileage: 41200,
     fuel: "hybrid", transmission: "automatic", gears: 0, body: "suv", drivetrain: "fwd",
     engine: { displacement: 1798, cylinders: 4, layout: "I4", powerHp: 122, torqueNm: 142 },
     performance: { zeroTo100: 11.0, topSpeed: 170 }, consumption: 5.0, co2: 114,
@@ -136,7 +136,7 @@ const ALL = [
   }),
   car({
     slug: "mercedes-c-class", make: "Mercedes-Benz", model: "Classe C", trim: "C 220 d AMG Line", generation: "W206",
-    year: 2022, firstRegistration: "2022-04", priceFrom: 41900, mileage: 39200,
+    year: 2022, firstRegistration: "2022-04", priceFrom: 14000, mileage: 39200,
     fuel: "diesel", transmission: "automatic", gears: 9, body: "sedan", drivetrain: "rwd", doors: 4,
     engine: { displacement: 1993, cylinders: 4, layout: "I4", powerHp: 200, torqueNm: 440 },
     performance: { zeroTo100: 7.3, topSpeed: 245 }, consumption: 4.9, co2: 129,
@@ -146,7 +146,7 @@ const ALL = [
   }),
   car({
     slug: "mercedes-e-class", make: "Mercedes-Benz", model: "Classe E", trim: "E 220 d Avantgarde", generation: "W213 (2020)",
-    year: 2020, firstRegistration: "2020-11", priceFrom: 34900, mileage: 68400,
+    year: 2020, firstRegistration: "2020-11", priceFrom: 11600, mileage: 68400,
     fuel: "diesel", transmission: "automatic", gears: 9, body: "sedan", drivetrain: "rwd", doors: 4,
     engine: { displacement: 1950, cylinders: 4, layout: "I4", powerHp: 194, torqueNm: 400 },
     performance: { zeroTo100: 7.4, topSpeed: 240 }, consumption: 5.4, co2: 142,
@@ -156,7 +156,7 @@ const ALL = [
   }),
   car({
     slug: "mercedes-gle", make: "Mercedes-Benz", model: "GLE", trim: "GLE 300 d 4MATIC AMG Line", generation: "W167",
-    year: 2021, firstRegistration: "2021-01", priceFrom: 56900, mileage: 52400,
+    year: 2021, firstRegistration: "2021-01", priceFrom: 19000, mileage: 52400,
     fuel: "diesel", transmission: "automatic", gears: 9, body: "suv", drivetrain: "awd",
     engine: { displacement: 1950, cylinders: 4, layout: "I4", powerHp: 245, torqueNm: 500 },
     performance: { zeroTo100: 7.2, topSpeed: 225 }, consumption: 7.0, co2: 184,
@@ -167,7 +167,7 @@ const ALL = [
   }),
   car({
     slug: "mercedes-g-class", make: "Mercedes-Benz", model: "Classe G", trim: "G 400 d AMG Line", generation: "W463 (2018+)",
-    year: 2021, firstRegistration: "2021-08", priceFrom: 129000, mileage: 45300,
+    year: 2021, firstRegistration: "2021-08", priceFrom: 43000, mileage: 45300,
     fuel: "diesel", transmission: "automatic", gears: 9, body: "suv", drivetrain: "4x4",
     engine: { displacement: 2925, cylinders: 6, layout: "I6", powerHp: 330, torqueNm: 700 },
     performance: { zeroTo100: 6.4, topSpeed: 210 }, consumption: 9.9, co2: 260,
@@ -178,7 +178,7 @@ const ALL = [
   }),
   car({
     slug: "mercedes-glc", make: "Mercedes-Benz", model: "GLC", trim: "GLC 220 d 4MATIC", generation: "X253 (2019)",
-    year: 2020, firstRegistration: "2020-03", priceFrom: 34900, mileage: 61300,
+    year: 2020, firstRegistration: "2020-03", priceFrom: 11600, mileage: 61300,
     fuel: "diesel", transmission: "automatic", gears: 9, body: "suv", drivetrain: "awd",
     engine: { displacement: 1950, cylinders: 4, layout: "I4", powerHp: 194, torqueNm: 400 },
     performance: { zeroTo100: 7.9, topSpeed: 215 }, consumption: 6.4, co2: 168,
@@ -188,7 +188,7 @@ const ALL = [
   }),
   car({
     slug: "mercedes-sprinter", make: "Mercedes-Benz", model: "Sprinter", trim: "317 CDI Tourer 9 places", generation: "W907",
-    year: 2021, firstRegistration: "2021-05", priceFrom: 44900, mileage: 61200,
+    year: 2021, firstRegistration: "2021-05", priceFrom: 15000, mileage: 61200,
     fuel: "diesel", transmission: "automatic", gears: 9, body: "van", drivetrain: "rwd", doors: 4,
     engine: { displacement: 1950, cylinders: 4, layout: "I4", powerHp: 170, torqueNm: 400 },
     performance: { zeroTo100: 0, topSpeed: 160 }, consumption: 9.6, co2: 252,
@@ -198,7 +198,7 @@ const ALL = [
   }),
   car({
     slug: "bmw-x5", make: "BMW", model: "X5", trim: "xDrive30d M Sport", generation: "G05",
-    year: 2021, firstRegistration: "2021-04", priceFrom: 54900, mileage: 58200,
+    year: 2021, firstRegistration: "2021-04", priceFrom: 18300, mileage: 58200,
     fuel: "diesel", transmission: "automatic", gears: 8, body: "suv", drivetrain: "awd",
     engine: { displacement: 2993, cylinders: 6, layout: "I6", powerHp: 286, torqueNm: 650 },
     performance: { zeroTo100: 6.1, topSpeed: 230 }, consumption: 7.2, co2: 190,
@@ -209,7 +209,7 @@ const ALL = [
   }),
   car({
     slug: "bmw-3-series", make: "BMW", model: "Série 3", trim: "320d M Sport", generation: "G20",
-    year: 2021, firstRegistration: "2021-06", priceFrom: 29900, mileage: 47600,
+    year: 2021, firstRegistration: "2021-06", priceFrom: 10000, mileage: 47600,
     fuel: "diesel", transmission: "automatic", gears: 8, body: "sedan", drivetrain: "rwd", doors: 4,
     engine: { displacement: 1995, cylinders: 4, layout: "I4", powerHp: 190, torqueNm: 400 },
     performance: { zeroTo100: 6.8, topSpeed: 240 }, consumption: 4.8, co2: 127,
@@ -219,7 +219,7 @@ const ALL = [
   }),
   car({
     slug: "bmw-x3", make: "BMW", model: "X3", trim: "xDrive20d xLine", generation: "G01 (2021)",
-    year: 2021, firstRegistration: "2021-10", priceFrom: 35900, mileage: 56100,
+    year: 2021, firstRegistration: "2021-10", priceFrom: 12000, mileage: 56100,
     fuel: "diesel", transmission: "automatic", gears: 8, body: "suv", drivetrain: "awd",
     engine: { displacement: 1995, cylinders: 4, layout: "I4", powerHp: 190, torqueNm: 400 },
     performance: { zeroTo100: 7.9, topSpeed: 213 }, consumption: 5.9, co2: 155,
@@ -229,7 +229,7 @@ const ALL = [
   }),
   car({
     slug: "bmw-5-series", make: "BMW", model: "Série 5", trim: "520d Luxury Line", generation: "G30 (2020)",
-    year: 2020, firstRegistration: "2020-09", priceFrom: 28900, mileage: 79300,
+    year: 2020, firstRegistration: "2020-09", priceFrom: 9600, mileage: 79300,
     fuel: "diesel", transmission: "automatic", gears: 8, body: "sedan", drivetrain: "rwd", doors: 4,
     engine: { displacement: 1995, cylinders: 4, layout: "I4", powerHp: 190, torqueNm: 400 },
     performance: { zeroTo100: 7.2, topSpeed: 235 }, consumption: 5.3, co2: 139,
@@ -239,7 +239,7 @@ const ALL = [
   }),
   car({
     slug: "audi-q5", make: "Audi", model: "Q5", trim: "40 TDI quattro S line", generation: "FY (2021)",
-    year: 2021, firstRegistration: "2021-03", priceFrom: 36900, mileage: 54700,
+    year: 2021, firstRegistration: "2021-03", priceFrom: 12300, mileage: 54700,
     fuel: "diesel", transmission: "automatic", gears: 7, body: "suv", drivetrain: "awd",
     engine: { displacement: 1968, cylinders: 4, layout: "I4", powerHp: 204, torqueNm: 400 },
     performance: { zeroTo100: 7.6, topSpeed: 222 }, consumption: 6.3, co2: 165,
@@ -249,7 +249,7 @@ const ALL = [
   }),
   car({
     slug: "audi-q7", make: "Audi", model: "Q7", trim: "50 TDI quattro S line", generation: "4M (2020)",
-    year: 2020, firstRegistration: "2020-06", priceFrom: 49900, mileage: 66800,
+    year: 2020, firstRegistration: "2020-06", priceFrom: 16600, mileage: 66800,
     fuel: "diesel", transmission: "automatic", gears: 8, body: "suv", drivetrain: "awd",
     engine: { displacement: 2967, cylinders: 6, layout: "V6", powerHp: 286, torqueNm: 600 },
     performance: { zeroTo100: 6.3, topSpeed: 241 }, consumption: 7.8, co2: 205,
@@ -259,7 +259,7 @@ const ALL = [
   }),
   car({
     slug: "vw-golf-8", make: "Volkswagen", model: "Golf", trim: "Style 1.5 eTSI DSG", generation: "Golf 8",
-    year: 2021, firstRegistration: "2021-11", priceFrom: 22900, mileage: 33800,
+    year: 2021, firstRegistration: "2021-11", priceFrom: 7600, mileage: 33800,
     fuel: "petrol", transmission: "automatic", gears: 7, body: "hatchback", drivetrain: "fwd",
     engine: { displacement: 1498, cylinders: 4, layout: "I4", powerHp: 150, torqueNm: 250 },
     performance: { zeroTo100: 8.5, topSpeed: 224 }, consumption: 5.7, co2: 130,
@@ -269,7 +269,7 @@ const ALL = [
   }),
   car({
     slug: "vw-tiguan", make: "Volkswagen", model: "Tiguan", trim: "R-Line 2.0 TDI 4Motion DSG", generation: "AD1 (2021)",
-    year: 2021, firstRegistration: "2021-07", priceFrom: 29900, mileage: 51600,
+    year: 2021, firstRegistration: "2021-07", priceFrom: 10000, mileage: 51600,
     fuel: "diesel", transmission: "automatic", gears: 7, body: "suv", drivetrain: "awd",
     engine: { displacement: 1968, cylinders: 4, layout: "I4", powerHp: 150, torqueNm: 360 },
     performance: { zeroTo100: 9.3, topSpeed: 200 }, consumption: 6.3, co2: 165,
@@ -279,7 +279,7 @@ const ALL = [
   }),
   car({
     slug: "vw-touareg", make: "Volkswagen", model: "Touareg", trim: "R-Line 3.0 V6 TDI 4Motion", generation: "CR",
-    year: 2020, firstRegistration: "2020-05", priceFrom: 46900, mileage: 72100,
+    year: 2020, firstRegistration: "2020-05", priceFrom: 15600, mileage: 72100,
     fuel: "diesel", transmission: "automatic", gears: 8, body: "suv", drivetrain: "awd",
     engine: { displacement: 2967, cylinders: 6, layout: "V6", powerHp: 286, torqueNm: 600 },
     performance: { zeroTo100: 6.1, topSpeed: 235 }, consumption: 7.9, co2: 207,
@@ -290,7 +290,7 @@ const ALL = [
   }),
   car({
     slug: "vw-passat", make: "Volkswagen", model: "Passat", trim: "Business 2.0 TDI DSG", generation: "B8 (2020)",
-    year: 2020, firstRegistration: "2020-04", priceFrom: 19900, mileage: 88200,
+    year: 2020, firstRegistration: "2020-04", priceFrom: 6600, mileage: 88200,
     fuel: "diesel", transmission: "automatic", gears: 7, body: "sedan", drivetrain: "fwd", doors: 4,
     engine: { displacement: 1968, cylinders: 4, layout: "I4", powerHp: 150, torqueNm: 360 },
     performance: { zeroTo100: 8.7, topSpeed: 220 }, consumption: 5.0, co2: 131,
@@ -300,7 +300,7 @@ const ALL = [
   }),
   car({
     slug: "hyundai-tucson", make: "Hyundai", model: "Tucson", trim: "N Line 1.6 T-GDi HEV 4WD", generation: "NX4",
-    year: 2022, firstRegistration: "2022-09", priceFrom: 30900, mileage: 29400,
+    year: 2022, firstRegistration: "2022-09", priceFrom: 10300, mileage: 29400,
     fuel: "hybrid", transmission: "automatic", gears: 6, body: "suv", drivetrain: "awd",
     engine: { displacement: 1598, cylinders: 4, layout: "I4", powerHp: 230, torqueNm: 350 },
     performance: { zeroTo100: 8.0, topSpeed: 193 }, consumption: 6.0, co2: 137,
@@ -310,7 +310,7 @@ const ALL = [
   }),
   car({
     slug: "hyundai-santa-fe", make: "Hyundai", model: "Santa Fe", trim: "Premium 2.2 CRDi 4WD", generation: "TM",
-    year: 2020, firstRegistration: "2020-01", priceFrom: 27900, mileage: 74500,
+    year: 2020, firstRegistration: "2020-01", priceFrom: 9300, mileage: 74500,
     fuel: "diesel", transmission: "automatic", gears: 8, body: "suv", drivetrain: "awd",
     engine: { displacement: 2199, cylinders: 4, layout: "I4", powerHp: 200, torqueNm: 440 },
     performance: { zeroTo100: 9.4, topSpeed: 203 }, consumption: 7.4, co2: 194,
@@ -320,7 +320,7 @@ const ALL = [
   }),
   car({
     slug: "kia-sportage", make: "Kia", model: "Sportage", trim: "GT-Line 1.6 T-GDi HEV AWD", generation: "NQ5",
-    year: 2023, firstRegistration: "2023-02", priceFrom: 32900, mileage: 21300,
+    year: 2023, firstRegistration: "2023-02", priceFrom: 11000, mileage: 21300,
     fuel: "hybrid", transmission: "automatic", gears: 6, body: "suv", drivetrain: "awd",
     engine: { displacement: 1598, cylinders: 4, layout: "I4", powerHp: 230, torqueNm: 350 },
     performance: { zeroTo100: 8.3, topSpeed: 193 }, consumption: 6.5, co2: 147,
@@ -332,7 +332,7 @@ const ALL = [
   }),
   car({
     slug: "kia-sorento", make: "Kia", model: "Sorento", trim: "Platinum 2.2 CRDi AWD", generation: "MQ4",
-    year: 2021, firstRegistration: "2021-04", priceFrom: 37900, mileage: 46300,
+    year: 2021, firstRegistration: "2021-04", priceFrom: 12600, mileage: 46300,
     fuel: "diesel", transmission: "automatic", gears: 8, body: "suv", drivetrain: "awd",
     engine: { displacement: 2151, cylinders: 4, layout: "I4", powerHp: 202, torqueNm: 440 },
     performance: { zeroTo100: 9.0, topSpeed: 205 }, consumption: 6.6, co2: 173,
@@ -343,7 +343,7 @@ const ALL = [
   }),
   car({
     slug: "nissan-patrol", make: "Nissan", model: "Patrol", trim: "LE Platinum 5.6 V8", generation: "Y62",
-    year: 2020, firstRegistration: "2020-08", priceFrom: 59900, mileage: 61700,
+    year: 2020, firstRegistration: "2020-08", priceFrom: 20000, mileage: 61700,
     fuel: "petrol", transmission: "automatic", gears: 7, body: "suv", drivetrain: "4x4",
     engine: { displacement: 5552, cylinders: 8, layout: "V8", powerHp: 400, torqueNm: 560 },
     performance: { zeroTo100: 6.6, topSpeed: 210 }, consumption: 14.4, co2: 334, euroNorm: "Euro 5 (spéc. GCC)",
@@ -355,7 +355,7 @@ const ALL = [
   }),
   car({
     slug: "nissan-qashqai", make: "Nissan", model: "Qashqai", trim: "N-Connecta 1.3 DIG-T DCT", generation: "J11 (2019)",
-    year: 2020, firstRegistration: "2020-06", priceFrom: 17900, mileage: 58900,
+    year: 2020, firstRegistration: "2020-06", priceFrom: 6000, mileage: 58900,
     fuel: "petrol", transmission: "automatic", gears: 7, body: "suv", drivetrain: "fwd",
     engine: { displacement: 1332, cylinders: 4, layout: "I4", powerHp: 160, torqueNm: 270 },
     performance: { zeroTo100: 9.9, topSpeed: 198 }, consumption: 6.6, co2: 150,
@@ -365,7 +365,7 @@ const ALL = [
   }),
   car({
     slug: "nissan-navara", make: "Nissan", model: "Navara", trim: "Tekna Double Cab 2.3 dCi 190", generation: "D23 (2020)",
-    year: 2020, firstRegistration: "2020-10", priceFrom: 27900, mileage: 69400,
+    year: 2020, firstRegistration: "2020-10", priceFrom: 9300, mileage: 69400,
     fuel: "diesel", transmission: "automatic", gears: 7, body: "pickup", drivetrain: "4x4", doors: 4,
     engine: { displacement: 2298, cylinders: 4, layout: "I4", powerHp: 190, torqueNm: 450 },
     performance: { zeroTo100: 10.8, topSpeed: 180 }, consumption: 9.0, co2: 236,
@@ -375,7 +375,7 @@ const ALL = [
   }),
   car({
     slug: "range-rover-sport", make: "Land Rover", model: "Range Rover Sport", trim: "HSE Dynamic SDV6", generation: "L494",
-    year: 2019, firstRegistration: "2019-05", priceFrom: 44900, mileage: 76200,
+    year: 2019, firstRegistration: "2019-05", priceFrom: 15000, mileage: 76200,
     fuel: "diesel", transmission: "automatic", gears: 8, body: "suv", drivetrain: "4x4", euroNorm: "Euro 6d-TEMP",
     engine: { displacement: 2993, cylinders: 6, layout: "V6", powerHp: 306, torqueNm: 700 },
     performance: { zeroTo100: 7.3, topSpeed: 225 }, consumption: 9.2, co2: 241,
@@ -385,7 +385,7 @@ const ALL = [
   }),
   car({
     slug: "range-rover-evoque", make: "Land Rover", model: "Range Rover Evoque", trim: "R-Dynamic SE D200", generation: "L551",
-    year: 2021, firstRegistration: "2021-05", priceFrom: 36900, mileage: 44100,
+    year: 2021, firstRegistration: "2021-05", priceFrom: 12300, mileage: 44100,
     fuel: "diesel", transmission: "automatic", gears: 9, body: "suv", drivetrain: "awd",
     engine: { displacement: 1997, cylinders: 4, layout: "I4", powerHp: 204, torqueNm: 430 },
     performance: { zeroTo100: 8.5, topSpeed: 213 }, consumption: 6.4, co2: 168,
@@ -395,7 +395,7 @@ const ALL = [
   }),
   car({
     slug: "land-rover-defender", make: "Land Rover", model: "Defender 110", trim: "SE D250", generation: "L663",
-    year: 2022, firstRegistration: "2022-03", priceFrom: 72900, mileage: 34600,
+    year: 2022, firstRegistration: "2022-03", priceFrom: 24300, mileage: 34600,
     fuel: "diesel", transmission: "automatic", gears: 8, body: "suv", drivetrain: "4x4",
     engine: { displacement: 2997, cylinders: 6, layout: "I6", powerHp: 249, torqueNm: 570 },
     performance: { zeroTo100: 8.3, topSpeed: 188 }, consumption: 9.3, co2: 245,
@@ -406,7 +406,7 @@ const ALL = [
   }),
   car({
     slug: "mitsubishi-l200", make: "Mitsubishi", model: "L200", trim: "Double Cab Intense 2.4 DI-D 181", generation: "KL (2015–2018)",
-    year: 2018, firstRegistration: "2018-06", priceFrom: 21900, mileage: 89400,
+    year: 2018, firstRegistration: "2018-06", priceFrom: 7300, mileage: 89400,
     fuel: "diesel", transmission: "automatic", gears: 5, body: "pickup", drivetrain: "4x4", doors: 4, euroNorm: "Euro 6b",
     engine: { displacement: 2442, cylinders: 4, layout: "I4", powerHp: 181, torqueNm: 430 },
     performance: { zeroTo100: 10.4, topSpeed: 179 }, consumption: 8.6, co2: 227,
@@ -416,7 +416,7 @@ const ALL = [
   }),
   car({
     slug: "mitsubishi-pajero-sport", make: "Mitsubishi", model: "Pajero Sport", trim: "Intense 2.4 DI-D 4WD", generation: "QE/QF",
-    year: 2020, firstRegistration: "2020-03", priceFrom: 29900, mileage: 72800,
+    year: 2020, firstRegistration: "2020-03", priceFrom: 10000, mileage: 72800,
     fuel: "diesel", transmission: "automatic", gears: 8, body: "suv", drivetrain: "4x4", euroNorm: "Euro 5 (spéc. export)",
     engine: { displacement: 2442, cylinders: 4, layout: "I4", powerHp: 181, torqueNm: 430 },
     performance: { zeroTo100: 11.0, topSpeed: 180 }, consumption: 8.0, co2: 210,
@@ -427,7 +427,7 @@ const ALL = [
   }),
   car({
     slug: "peugeot-3008", make: "Peugeot", model: "3008", trim: "Allure 1.5 BlueHDi 130 EAT8", generation: "P84",
-    year: 2021, firstRegistration: "2021-06", priceFrom: 22900, mileage: 49200,
+    year: 2021, firstRegistration: "2021-06", priceFrom: 7600, mileage: 49200,
     fuel: "diesel", transmission: "automatic", gears: 8, body: "suv", drivetrain: "fwd",
     engine: { displacement: 1499, cylinders: 4, layout: "I4", powerHp: 130, torqueNm: 300 },
     performance: { zeroTo100: 11.2, topSpeed: 192 }, consumption: 5.4, co2: 141,
@@ -437,7 +437,7 @@ const ALL = [
   }),
   car({
     slug: "dacia-duster", make: "Dacia", model: "Duster", trim: "Prestige Blue dCi 115 4x4", generation: "HM (2021)",
-    year: 2021, firstRegistration: "2021-09", priceFrom: 17900, mileage: 39700,
+    year: 2021, firstRegistration: "2021-09", priceFrom: 6000, mileage: 39700,
     fuel: "diesel", transmission: "manual", gears: 6, body: "suv", drivetrain: "awd",
     engine: { displacement: 1461, cylinders: 4, layout: "I4", powerHp: 115, torqueNm: 260 },
     performance: { zeroTo100: 12.8, topSpeed: 168 }, consumption: 5.6, co2: 147,
@@ -447,7 +447,7 @@ const ALL = [
   }),
   car({
     slug: "ford-transit", make: "Ford", model: "Transit", trim: "350 L2H3 Trend 2.0 EcoBlue", generation: "V363 (2019)",
-    year: 2020, firstRegistration: "2020-09", priceFrom: 22900, mileage: 88300,
+    year: 2020, firstRegistration: "2020-09", priceFrom: 7600, mileage: 88300,
     fuel: "diesel", transmission: "manual", gears: 6, body: "van", drivetrain: "fwd", doors: 4,
     engine: { displacement: 1995, cylinders: 4, layout: "I4", powerHp: 130, torqueNm: 360 },
     performance: { zeroTo100: 0, topSpeed: 150 }, consumption: 8.5, co2: 223,
@@ -457,7 +457,7 @@ const ALL = [
   }),
   car({
     slug: "ford-ranger", make: "Ford", model: "Ranger", trim: "Wildtrak 2.0 EcoBlue 213 AT", generation: "T6 (2019)",
-    year: 2021, firstRegistration: "2021-02", priceFrom: 32900, mileage: 59200,
+    year: 2021, firstRegistration: "2021-02", priceFrom: 11000, mileage: 59200,
     fuel: "diesel", transmission: "automatic", gears: 10, body: "pickup", drivetrain: "4x4", doors: 4,
     engine: { displacement: 1996, cylinders: 4, layout: "I4", powerHp: 213, torqueNm: 500 },
     performance: { zeroTo100: 9.4, topSpeed: 180 }, consumption: 8.9, co2: 234,
@@ -467,7 +467,7 @@ const ALL = [
   }),
   car({
     slug: "lexus-rx", make: "Lexus", model: "RX", trim: "450h Executive Line AWD", generation: "AL20 (2019)",
-    year: 2020, firstRegistration: "2020-04", priceFrom: 39900, mileage: 63400,
+    year: 2020, firstRegistration: "2020-04", priceFrom: 13300, mileage: 63400,
     fuel: "hybrid", transmission: "automatic", gears: 0, body: "suv", drivetrain: "awd",
     engine: { displacement: 3456, cylinders: 6, layout: "V6", powerHp: 313, torqueNm: 335 },
     performance: { zeroTo100: 7.7, topSpeed: 200 }, consumption: 8.0, co2: 181,
@@ -477,7 +477,7 @@ const ALL = [
   }),
   car({
     slug: "lexus-lx", make: "Lexus", model: "LX 570", trim: "Sport 5.7 V8", generation: "J200",
-    year: 2019, firstRegistration: "2019-07", priceFrom: 64900, mileage: 79800,
+    year: 2019, firstRegistration: "2019-07", priceFrom: 21600, mileage: 79800,
     fuel: "petrol", transmission: "automatic", gears: 8, body: "suv", drivetrain: "4x4", euroNorm: "Euro 5 (spéc. GCC)",
     engine: { displacement: 5663, cylinders: 8, layout: "V8", powerHp: 367, torqueNm: 530 },
     performance: { zeroTo100: 7.7, topSpeed: 220 }, consumption: 14.8, co2: 345,
@@ -488,7 +488,7 @@ const ALL = [
   }),
   car({
     slug: "skoda-octavia", make: "Škoda", model: "Octavia", trim: "Combi Style 2.0 TDI DSG", generation: "NX (Octavia IV)",
-    year: 2021, firstRegistration: "2021-08", priceFrom: 23900, mileage: 46800,
+    year: 2021, firstRegistration: "2021-08", priceFrom: 8000, mileage: 46800,
     fuel: "diesel", transmission: "automatic", gears: 7, body: "estate", drivetrain: "fwd",
     engine: { displacement: 1968, cylinders: 4, layout: "I4", powerHp: 150, torqueNm: 360 },
     performance: { zeroTo100: 8.8, topSpeed: 227 }, consumption: 4.6, co2: 121,
@@ -500,7 +500,7 @@ const ALL = [
   /* ---------- Stock situé à Dubaï (spécifications GCC) ---------- */
   car({
     slug: "toyota-land-cruiser-79", make: "Toyota", model: "Land Cruiser 79", trim: "Double Cab 4.5 V8 D LX", generation: "J79 (2024)",
-    year: 2024, firstRegistration: "2024-04", priceFrom: 69900, mileage: 12800, location: "dubai",
+    year: 2024, firstRegistration: "2024-04", priceFrom: 23300, mileage: 12800, location: "dubai",
     fuel: "diesel", transmission: "manual", gears: 5, body: "pickup", drivetrain: "4x4", doors: 4, euroNorm: "Euro 4 (spéc. GCC)",
     engine: { displacement: 4461, cylinders: 8, layout: "V8", powerHp: 202, torqueNm: 430 },
     performance: { zeroTo100: 0, topSpeed: 160 }, consumption: 12.5, co2: 330,
@@ -512,7 +512,7 @@ const ALL = [
   }),
   car({
     slug: "toyota-fortuner", make: "Toyota", model: "Fortuner", trim: "VX 4.0 V6 4x4", generation: "AN160 (2021)",
-    year: 2022, firstRegistration: "2022-02", priceFrom: 38900, mileage: 41200, location: "dubai",
+    year: 2022, firstRegistration: "2022-02", priceFrom: 13000, mileage: 41200, location: "dubai",
     fuel: "petrol", transmission: "automatic", gears: 6, body: "suv", drivetrain: "4x4", euroNorm: "Euro 4 (spéc. GCC)",
     engine: { displacement: 3956, cylinders: 6, layout: "V6", powerHp: 235, torqueNm: 376 },
     performance: { zeroTo100: 9.5, topSpeed: 180 }, consumption: 12.1, co2: 285,
@@ -524,7 +524,7 @@ const ALL = [
   }),
   car({
     slug: "nissan-sunny", make: "Nissan", model: "Sunny", trim: "SV 1.5", generation: "N17",
-    year: 2021, firstRegistration: "2021-06", priceFrom: 9900, mileage: 58300, location: "dubai",
+    year: 2021, firstRegistration: "2021-06", priceFrom: 3300, mileage: 58300, location: "dubai",
     fuel: "petrol", transmission: "automatic", gears: 0, body: "sedan", drivetrain: "fwd", doors: 4, euroNorm: "Euro 4 (spéc. GCC)",
     engine: { displacement: 1498, cylinders: 4, layout: "I4", powerHp: 99, torqueNm: 134 },
     performance: { zeroTo100: 11.9, topSpeed: 175 }, consumption: 6.0, co2: 140,
@@ -535,7 +535,7 @@ const ALL = [
   }),
   car({
     slug: "hyundai-elantra", make: "Hyundai", model: "Elantra", trim: "Smart 2.0 MPi", generation: "CN7",
-    year: 2022, firstRegistration: "2022-05", priceFrom: 16900, mileage: 36400, location: "dubai",
+    year: 2022, firstRegistration: "2022-05", priceFrom: 5600, mileage: 36400, location: "dubai",
     fuel: "petrol", transmission: "automatic", gears: 0, body: "sedan", drivetrain: "fwd", doors: 4, euroNorm: "Euro 4 (spéc. GCC)",
     engine: { displacement: 1999, cylinders: 4, layout: "I4", powerHp: 159, torqueNm: 192 },
     performance: { zeroTo100: 9.6, topSpeed: 200 }, consumption: 6.6, co2: 152,
@@ -546,7 +546,7 @@ const ALL = [
   }),
   car({
     slug: "kia-picanto", make: "Kia", model: "Picanto", trim: "LX 1.2", generation: "JA (2024)",
-    year: 2024, firstRegistration: "2024-03", priceFrom: 10900, mileage: 9800, location: "dubai",
+    year: 2024, firstRegistration: "2024-03", priceFrom: 3600, mileage: 9800, location: "dubai",
     fuel: "petrol", transmission: "automatic", gears: 4, body: "hatchback", drivetrain: "fwd", euroNorm: "Euro 4 (spéc. GCC)",
     engine: { displacement: 1248, cylinders: 4, layout: "I4", powerHp: 83, torqueNm: 122 },
     performance: { zeroTo100: 13.2, topSpeed: 160 }, consumption: 5.4, co2: 125,

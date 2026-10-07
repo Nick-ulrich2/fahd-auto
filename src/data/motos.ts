@@ -70,7 +70,7 @@ const NEW_AFRICA = {
 const ALL = [
   moto({
     slug: "yamaha-mt-07", make: "Yamaha", model: "MT-07", trim: "689 CP2", generation: "MT-07 (2021)",
-    year: 2021, firstRegistration: "2021-04", priceFrom: 6490, mileage: 12400,
+    year: 2021, firstRegistration: "2021-04", priceFrom: 4330, mileage: 12400,
     fuel: "petrol", transmission: "manual", gears: 6, body: "roadster", drivetrain: "chain",
     engine: { displacement: 689, cylinders: 2, layout: "2", powerHp: 73, torqueNm: 67 },
     topSpeed: 214, consumption: 4.3, co2: 100,
@@ -86,7 +86,7 @@ const ALL = [
   }),
   moto({
     slug: "yamaha-tracer-900", make: "Yamaha", model: "Tracer 900", trim: "GT", generation: "Tracer 900 (2018)",
-    year: 2019, firstRegistration: "2019-05", priceFrom: 8490, mileage: 24800,
+    year: 2019, firstRegistration: "2019-05", priceFrom: 5660, mileage: 24800,
     fuel: "petrol", transmission: "manual", gears: 6, body: "touring", drivetrain: "chain",
     engine: { displacement: 847, cylinders: 3, layout: "I3", powerHp: 115, torqueNm: 88 },
     topSpeed: 220, consumption: 5.6, co2: 130,
@@ -101,7 +101,7 @@ const ALL = [
   }),
   moto({
     slug: "yamaha-tenere-700", make: "Yamaha", model: "Ténéré 700", trim: "689 CP2", generation: "XTZ690 (2019+)",
-    year: 2021, firstRegistration: "2021-03", priceFrom: 8990, mileage: 9800,
+    year: 2021, firstRegistration: "2021-03", priceFrom: 5990, mileage: 9800,
     fuel: "petrol", transmission: "manual", gears: 6, body: "adventure", drivetrain: "chain",
     engine: { displacement: 689, cylinders: 2, layout: "2", powerHp: 73, torqueNm: 68 },
     topSpeed: 195, consumption: 4.3, co2: 100,
@@ -117,7 +117,7 @@ const ALL = [
   }),
   moto({
     slug: "yamaha-tmax-560", make: "Yamaha", model: "TMAX 560", trim: "Tech MAX", generation: "TMAX (2020)",
-    year: 2020, firstRegistration: "2020-06", priceFrom: 10490, mileage: 14200,
+    year: 2020, firstRegistration: "2020-06", priceFrom: 6990, mileage: 14200,
     fuel: "petrol", transmission: "automatic", gears: 0, body: "scooter", drivetrain: "belt",
     engine: { displacement: 562, cylinders: 2, layout: "2", powerHp: 48, torqueNm: 56 },
     topSpeed: 165, consumption: 4.8, co2: 112,
@@ -133,7 +133,7 @@ const ALL = [
   }),
   moto({
     slug: "yamaha-xmax-300", make: "Yamaha", model: "XMAX 300", trim: "Tech MAX", generation: "XMAX (2021)",
-    year: 2021, firstRegistration: "2021-07", priceFrom: 4690, mileage: 8700,
+    year: 2021, firstRegistration: "2021-07", priceFrom: 3130, mileage: 8700,
     fuel: "petrol", transmission: "automatic", gears: 0, body: "scooter", drivetrain: "belt",
     engine: { displacement: 292, cylinders: 1, layout: "1", powerHp: 28, torqueNm: 29 },
     topSpeed: 140, consumption: 3.0, co2: 70,
@@ -148,7 +148,7 @@ const ALL = [
   }),
   moto({
     slug: "honda-cb650r", make: "Honda", model: "CB650R", trim: "Neo Sports Café", generation: "CB650R (2021)",
-    year: 2021, firstRegistration: "2021-05", priceFrom: 6990, mileage: 11300,
+    year: 2021, firstRegistration: "2021-05", priceFrom: 4660, mileage: 11300,
     fuel: "petrol", transmission: "manual", gears: 6, body: "roadster", drivetrain: "chain",
     engine: { displacement: 649, cylinders: 4, layout: "I4", powerHp: 95, torqueNm: 63 },
     topSpeed: 210, consumption: 4.9, co2: 115,
@@ -163,7 +163,7 @@ const ALL = [
   }),
   moto({
     slug: "honda-africa-twin", make: "Honda", model: "Africa Twin", trim: "CRF1100L Adventure Sports DCT", generation: "CRF1100L",
-    year: 2021, firstRegistration: "2021-03", priceFrom: 14490, mileage: 18600,
+    year: 2021, firstRegistration: "2021-03", priceFrom: 9660, mileage: 18600,
     fuel: "petrol", transmission: "automatic", gears: 6, body: "adventure", drivetrain: "chain",
     engine: { displacement: 1084, cylinders: 2, layout: "2", powerHp: 102, torqueNm: 105 },
     topSpeed: 200, consumption: 4.9, co2: 113,
@@ -179,7 +179,7 @@ const ALL = [
   }),
   moto({
     slug: "honda-nc750x", make: "Honda", model: "NC750X", trim: "DCT", generation: "NC750X (2021)",
-    year: 2021, firstRegistration: "2021-06", priceFrom: 8290, mileage: 15700,
+    year: 2021, firstRegistration: "2021-06", priceFrom: 5530, mileage: 15700,
     fuel: "petrol", transmission: "automatic", gears: 6, body: "touring", drivetrain: "chain",
     engine: { displacement: 745, cylinders: 2, layout: "2", powerHp: 59, torqueNm: 69 },
     topSpeed: 180, consumption: 3.5, co2: 81,
@@ -194,7 +194,7 @@ const ALL = [
   }),
   moto({
     slug: "kawasaki-z900", make: "Kawasaki", model: "Z900", trim: "948 cm³", generation: "ZR900 (2020)",
-    year: 2021, firstRegistration: "2021-04", priceFrom: 8290, mileage: 13600,
+    year: 2021, firstRegistration: "2021-04", priceFrom: 5530, mileage: 13600,
     fuel: "petrol", transmission: "manual", gears: 6, body: "roadster", drivetrain: "chain",
     engine: { displacement: 948, cylinders: 4, layout: "I4", powerHp: 125, torqueNm: 99 },
     topSpeed: 240, consumption: 5.7, co2: 133,
@@ -210,7 +210,7 @@ const ALL = [
   }),
   moto({
     slug: "kawasaki-ninja-650", make: "Kawasaki", model: "Ninja 650", trim: "ABS", generation: "EX650 (2017+)",
-    year: 2020, firstRegistration: "2020-04", priceFrom: 5990, mileage: 16200,
+    year: 2020, firstRegistration: "2020-04", priceFrom: 3990, mileage: 16200,
     fuel: "petrol", transmission: "manual", gears: 6, body: "sport", drivetrain: "chain",
     engine: { displacement: 649, cylinders: 2, layout: "2", powerHp: 68, torqueNm: 64 },
     topSpeed: 210, consumption: 4.4, co2: 102,
@@ -225,7 +225,7 @@ const ALL = [
   }),
   moto({
     slug: "suzuki-v-strom-650", make: "Suzuki", model: "V-Strom 650", trim: "XT", generation: "DL650 (2017+)",
-    year: 2019, firstRegistration: "2019-04", priceFrom: 6990, mileage: 19800,
+    year: 2019, firstRegistration: "2019-04", priceFrom: 4660, mileage: 19800,
     fuel: "petrol", transmission: "manual", gears: 6, body: "adventure", drivetrain: "chain",
     engine: { displacement: 645, cylinders: 2, layout: "V2", powerHp: 71, torqueNm: 62 },
     topSpeed: 195, consumption: 4.4, co2: 103,
@@ -240,7 +240,7 @@ const ALL = [
   }),
   moto({
     slug: "suzuki-gsx-s1000", make: "Suzuki", model: "GSX-S1000", trim: "999 cm³", generation: "GSX-S1000 (2021)",
-    year: 2022, firstRegistration: "2022-03", priceFrom: 10290, mileage: 7400,
+    year: 2022, firstRegistration: "2022-03", priceFrom: 6860, mileage: 7400,
     fuel: "petrol", transmission: "manual", gears: 6, body: "roadster", drivetrain: "chain",
     engine: { displacement: 999, cylinders: 4, layout: "I4", powerHp: 152, torqueNm: 106 },
     topSpeed: 250, consumption: 6.2, co2: 145,
@@ -255,7 +255,7 @@ const ALL = [
   }),
   moto({
     slug: "bmw-r-1250-gs", make: "BMW", model: "R 1250 GS", trim: "HP", generation: "K50 (2019+)",
-    year: 2021, firstRegistration: "2021-04", priceFrom: 15990, mileage: 26400,
+    year: 2021, firstRegistration: "2021-04", priceFrom: 10660, mileage: 26400,
     fuel: "petrol", transmission: "manual", gears: 6, body: "adventure", drivetrain: "shaft",
     engine: { displacement: 1254, cylinders: 2, layout: "B2", powerHp: 136, torqueNm: 143 },
     topSpeed: 200, consumption: 4.8, co2: 110,
@@ -271,7 +271,7 @@ const ALL = [
   }),
   moto({
     slug: "bmw-s-1000-rr", make: "BMW", model: "S 1000 RR", trim: "Race", generation: "K46 (2015–2018)",
-    year: 2018, firstRegistration: "2018-04", priceFrom: 11990, mileage: 14500,
+    year: 2018, firstRegistration: "2018-04", priceFrom: 7990, mileage: 14500,
     fuel: "petrol", transmission: "manual", gears: 6, body: "sport", drivetrain: "chain",
     engine: { displacement: 999, cylinders: 4, layout: "I4", powerHp: 199, torqueNm: 113 },
     topSpeed: 299, consumption: 6.4, co2: 149,
@@ -286,7 +286,7 @@ const ALL = [
   }),
   moto({
     slug: "ktm-390-duke", make: "KTM", model: "390 Duke", trim: "373 cm³", generation: "390 Duke (2017+)",
-    year: 2021, firstRegistration: "2021-05", priceFrom: 4290, mileage: 6800,
+    year: 2021, firstRegistration: "2021-05", priceFrom: 2860, mileage: 6800,
     fuel: "petrol", transmission: "manual", gears: 6, body: "roadster", drivetrain: "chain",
     engine: { displacement: 373, cylinders: 1, layout: "1", powerHp: 44, torqueNm: 37 },
     topSpeed: 167, consumption: 3.3, co2: 77,
@@ -301,7 +301,7 @@ const ALL = [
   }),
   moto({
     slug: "triumph-tiger-900", make: "Triumph", model: "Tiger 900", trim: "GT Pro", generation: "Tiger 900 (2020+)",
-    year: 2021, firstRegistration: "2021-04", priceFrom: 11990, mileage: 17200,
+    year: 2021, firstRegistration: "2021-04", priceFrom: 7990, mileage: 17200,
     fuel: "petrol", transmission: "manual", gears: 6, body: "adventure", drivetrain: "chain",
     engine: { displacement: 888, cylinders: 3, layout: "I3", powerHp: 95, torqueNm: 87 },
     topSpeed: 200, consumption: 5.2, co2: 120,
@@ -316,7 +316,7 @@ const ALL = [
   }),
   moto({
     slug: "harley-fat-boy", make: "Harley-Davidson", model: "Fat Boy 114", trim: "Milwaukee-Eight 114", generation: "Softail (2018+)",
-    year: 2020, firstRegistration: "2020-05", priceFrom: 18900, mileage: 11200,
+    year: 2020, firstRegistration: "2020-05", priceFrom: 12600, mileage: 11200,
     fuel: "petrol", transmission: "manual", gears: 6, body: "custom", drivetrain: "belt",
     engine: { displacement: 1868, cylinders: 2, layout: "V2", powerHp: 94, torqueNm: 155 },
     topSpeed: 175, consumption: 5.6, co2: 129,
@@ -332,7 +332,7 @@ const ALL = [
   }),
   moto({
     slug: "royal-enfield-himalayan", make: "Royal Enfield", model: "Himalayan", trim: "411 LS", generation: "Himalayan (2021)",
-    year: 2021, firstRegistration: "2021-08", priceFrom: 4190, mileage: 5900,
+    year: 2021, firstRegistration: "2021-08", priceFrom: 2790, mileage: 5900,
     fuel: "petrol", transmission: "manual", gears: 5, body: "adventure", drivetrain: "chain",
     engine: { displacement: 411, cylinders: 1, layout: "1", powerHp: 24, torqueNm: 32 },
     topSpeed: 130, consumption: 3.2, co2: 75,
@@ -347,7 +347,7 @@ const ALL = [
   }),
   moto({
     slug: "ducati-monster", make: "Ducati", model: "Monster", trim: "+ 937", generation: "Monster (2021)",
-    year: 2022, firstRegistration: "2022-04", priceFrom: 9990, mileage: 8900,
+    year: 2022, firstRegistration: "2022-04", priceFrom: 6660, mileage: 8900,
     fuel: "petrol", transmission: "manual", gears: 6, body: "roadster", drivetrain: "chain",
     engine: { displacement: 937, cylinders: 2, layout: "V2", powerHp: 111, torqueNm: 93 },
     topSpeed: 245, consumption: 5.3, co2: 123,
@@ -362,7 +362,7 @@ const ALL = [
   }),
   moto({
     slug: "ducati-multistrada-v4", make: "Ducati", model: "Multistrada V4", trim: "S", generation: "Multistrada V4 (2021+)",
-    year: 2021, firstRegistration: "2021-06", priceFrom: 19990, mileage: 14700,
+    year: 2021, firstRegistration: "2021-06", priceFrom: 13330, mileage: 14700,
     fuel: "petrol", transmission: "manual", gears: 6, body: "adventure", drivetrain: "chain",
     engine: { displacement: 1158, cylinders: 4, layout: "V4", powerHp: 170, torqueNm: 125 },
     topSpeed: 250, consumption: 6.9, co2: 160,
@@ -379,7 +379,7 @@ const ALL = [
 
   /* ---------- Motos et tricycles les plus utilisés au Cameroun et en Afrique ---------- */
   moto({
-    ...NEW_AFRICA, ...xaf(650000),
+    ...NEW_AFRICA, ...xaf(435000),
     slug: "bajaj-boxer-100", make: "Bajaj", model: "Boxer 100", trim: "BM 100 ES", generation: "Boxer BM",
     year: 2026, firstRegistration: "2026-09",
     fuel: "petrol", transmission: "manual", gears: 4, body: "commuter", drivetrain: "chain",
@@ -396,7 +396,7 @@ const ALL = [
     featured: true,
   }),
   moto({
-    ...NEW_AFRICA, ...xaf(850000),
+    ...NEW_AFRICA, ...xaf(565000),
     slug: "bajaj-boxer-150", make: "Bajaj", model: "Boxer 150", trim: "BM 150 X", generation: "Boxer BM",
     year: 2026, firstRegistration: "2026-09",
     fuel: "petrol", transmission: "manual", gears: 5, body: "commuter", drivetrain: "chain",
@@ -413,7 +413,7 @@ const ALL = [
     featured: true,
   }),
   moto({
-    ...NEW_AFRICA, ...xaf(950000),
+    ...NEW_AFRICA, ...xaf(635000),
     slug: "haojue-hj150", make: "Haojue", model: "150", trim: "HJ150-9", generation: "HJ150-9",
     year: 2026, firstRegistration: "2026-09",
     fuel: "petrol", transmission: "manual", gears: 5, body: "commuter", drivetrain: "chain",
@@ -430,7 +430,7 @@ const ALL = [
     featured: true,
   }),
   moto({
-    ...NEW_AFRICA, ...xaf(700000),
+    ...NEW_AFRICA, ...xaf(465000),
     slug: "lifan-lf150", make: "Lifan", model: "150", trim: "LF150-7", generation: "LF150",
     year: 2026, firstRegistration: "2026-09",
     fuel: "petrol", transmission: "manual", gears: 5, body: "custom", drivetrain: "chain",
@@ -446,7 +446,7 @@ const ALL = [
     features: ["electricStart", "kickStart", "alloyWheels"],
   }),
   moto({
-    ...NEW_AFRICA, ...xaf(600000),
+    ...NEW_AFRICA, ...xaf(400000),
     slug: "loncin-lx125", make: "Loncin", model: "125", trim: "LX125", generation: "LX125",
     year: 2026, firstRegistration: "2026-09",
     fuel: "petrol", transmission: "manual", gears: 5, body: "commuter", drivetrain: "chain",
@@ -462,7 +462,7 @@ const ALL = [
     features: ["electricStart", "kickStart", "luggageRack", "alloyWheels"],
   }),
   moto({
-    ...xaf(550000), condition: "used", coc: false, euroNorm: "—",
+    ...xaf(365000), condition: "used", coc: false, euroNorm: "—",
     slug: "honda-cg125", make: "Honda", model: "CG 125", trim: "Fan ES", generation: "CG125 (2009+)",
     year: 2019, firstRegistration: "2019-05", mileage: 18400,
     fuel: "petrol", transmission: "manual", gears: 5, body: "commuter", drivetrain: "chain",
@@ -478,7 +478,7 @@ const ALL = [
     features: ["electricStart", "kickStart", "luggageRack", "spokeWheels"],
   }),
   moto({
-    ...xaf(850000), condition: "used",
+    ...xaf(565000), condition: "used",
     slug: "yamaha-ybr125", make: "Yamaha", model: "YBR 125", trim: "ED", generation: "YBR125 (2014+)",
     year: 2020, firstRegistration: "2020-03", mileage: 12100, euroNorm: "Euro 4",
     fuel: "petrol", transmission: "manual", gears: 5, body: "commuter", drivetrain: "chain",
@@ -495,7 +495,7 @@ const ALL = [
     featured: true,
   }),
   moto({
-    ...xaf(650000), condition: "used", coc: false, euroNorm: "—",
+    ...xaf(435000), condition: "used", coc: false, euroNorm: "—",
     slug: "yamaha-crux-110", make: "Yamaha", model: "Crux 110", trim: "Crux R", generation: "Crux",
     year: 2021, firstRegistration: "2021-06", mileage: 9300,
     fuel: "petrol", transmission: "manual", gears: 4, body: "commuter", drivetrain: "chain",
@@ -511,7 +511,7 @@ const ALL = [
     features: ["kickStart", "luggageRack", "spokeWheels", "centreStand"],
   }),
   moto({
-    ...NEW_AFRICA, ...xaf(700000),
+    ...NEW_AFRICA, ...xaf(465000),
     slug: "hero-splendor-plus", make: "Hero", model: "Splendor+", trim: "i3S", generation: "Splendor+",
     year: 2026, firstRegistration: "2026-09",
     fuel: "petrol", transmission: "manual", gears: 4, body: "commuter", drivetrain: "chain",
@@ -527,7 +527,7 @@ const ALL = [
     features: ["electricStart", "kickStart", "cbs", "luggageRack", "alloyWheels"],
   }),
   moto({
-    ...NEW_AFRICA, ...xaf(1950000),
+    ...NEW_AFRICA, ...xaf(1300000),
     slug: "lifan-tricycle-200zh", make: "Lifan", model: "Tricycle 200ZH", trim: "LF200ZH cargo", generation: "LF200ZH (-2 / -3)",
     year: 2026, firstRegistration: "2026-09", seats: 2, payload: 1000,
     fuel: "petrol", transmission: "manual", gears: 5, body: "tricycle", drivetrain: "shaft",
