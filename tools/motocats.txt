@@ -1,0 +1,21 @@
+yamaha-mt-07|Yamaha MT-07
+yamaha-tracer-900|Yamaha Tracer 900
+yamaha-tenere-700|Yamaha Ténéré 700
+yamaha-tmax-560|Yamaha TMAX (2020)|Yamaha TMAX (2022)
+yamaha-xmax-300|Yamaha XMAX
+honda-cb650r|Honda CB650R
+honda-africa-twin|Honda CRF1100L
+honda-nc750x|Honda NC750X
+honda-forza-350|Honda Forza
+kawasaki-z900|Kawasaki Z900
+kawasaki-ninja-650|Kawasaki ER-6 - Ninja 650
+suzuki-v-strom-1050|Suzuki V-Strom 1050
+suzuki-gsx-s1000|Suzuki GSX-S1000
+bmw-r-1250-gs|BMW R1250
+bmw-s-1000-rr|BMW S1000RR
+ktm-390-duke|KTM 390 Duke
+triumph-tiger-900|Triumph Tiger 900|Triumph Tiger 900 (C70x)
+harley-fat-boy|Harley-Davidson Fat Boy
+royal-enfield-himalayan|Royal Enfield Himalayan
+ducati-monster|Ducati Monster
+ducati-multistrada-v4|Ducati Multistrada

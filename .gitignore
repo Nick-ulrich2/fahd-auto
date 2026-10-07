@@ -1,0 +1,10 @@
+node_modules
+dist
+.DS_Store
+*.log
+tools/candidates.json
+tools/__pycache__
+dist-ssr
+.env
+.env.local
+tools/browse-last.json

@@ -1,0 +1,42 @@
+toyota-land-cruiser-300|Toyota Land Cruiser (J300)
+toyota-land-cruiser-prado|Toyota Land Cruiser Prado (J150)
+toyota-hilux|Toyota HiLux (AN120/AN130, 2020)
+toyota-rav4-hybrid|Toyota RAV4 (XA50)
+toyota-corolla-sedan|Toyota Corolla (E210) sedan|Toyota Corolla Hybrid (E210) sedan
+toyota-camry|Toyota Camry (XV70)
+toyota-c-hr|Toyota C-HR (AX10/AX50)
+mercedes-c-class|Mercedes-Benz W206
+mercedes-e-class|Mercedes-Benz W213
+mercedes-gle|Mercedes-Benz W167
+mercedes-g-class|Mercedes-Benz W 463 (2018–2024)
+mercedes-glc|Mercedes-Benz X253
+mercedes-sprinter|Mercedes-Benz Sprinter (2018–)
+bmw-x5|BMW G05
+bmw-3-series|BMW G20
+bmw-x3|BMW G01
+bmw-5-series|BMW G30
+audi-q5|Audi Q5 FY
+audi-q7|Audi Q7 (4M)
+vw-golf-8|Volkswagen Golf VIII
+vw-tiguan|Volkswagen Tiguan II
+vw-touareg|Volkswagen Touareg (2018–2023)
+vw-passat|Volkswagen Passat B8
+hyundai-tucson|Hyundai Tucson (NX4)
+hyundai-santa-fe|Hyundai Santa Fe (TM)
+kia-sportage|Kia Sportage (NQ5)
+kia-sorento|Kia Sorento (MQ4)
+nissan-patrol|Nissan Patrol (Y62)
+nissan-qashqai|Nissan Qashqai (J11)
+nissan-navara|Nissan Navara (D23)
+range-rover-sport|Range Rover Sport Series II
+range-rover-evoque|Range Rover Evoque (L551)
+land-rover-defender|Land Rover Defender (L663)
+mitsubishi-l200|Mitsubishi L200 (2015)
+mitsubishi-pajero-sport|Mitsubishi Pajero Sport (2015)
+peugeot-3008|Peugeot 3008 B
+dacia-duster|Dacia Duster II
+ford-transit|Ford Transit (2013)
+ford-ranger|Ford Ranger (T6)
+lexus-rx|Lexus RX (AL20)
+lexus-lx|Lexus LX 570 (URJ200)|Lexus LX 570 (URJ201W)
+skoda-octavia|Škoda Octavia IV

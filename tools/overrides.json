@@ -1,0 +1,369 @@
+{
+ "toyota-land-cruiser-prado": {
+  "only": true,
+  "force": [
+   "File:2018 Toyota Land Cruiser Prado (GDJ150R) GXL wagon (2018-08-06) 01.jpg",
+   "File:2018 Toyota Land Cruiser Prado (GDJ150R) GXL wagon (2018-08-06) 02.jpg",
+   "File:2018 Toyota Land Cruiser Prado (GDJ150R) VX 4WD wagon (2018-07-19) 01.jpg",
+   "File:The interior of Toyota LAND CRUISER PRADO DIESEL TX L Package 5-Seater (3DA-GDJ150W-GGTEY).jpg"
+  ]
+ },
+ "mercedes-g-class": {
+  "only": true,
+  "force": [
+   "File:Mercedes-Benz W463 G 400d Obsidian Black (6).jpg",
+   "File:Mercedes-Benz G 500, St. Gallen (1Y7A2285).jpg",
+   "File:MERCEDES-BENZ G500 MAGNO RED EDITION INTERIOR(2).jpg",
+   "File:2020 Mercedes-Benz G-Class G350d Sport.jpg"
+  ]
+ },
+ "mercedes-sprinter": {
+  "only": true,
+  "force": [
+   "File:Mercedes-Benz Sprinter VS30 317 CDI Black 01.jpg",
+   "File:Mercedes-Benz Sprinter VS30 317 CDI Black 02.jpg",
+   "File:Mercedes-Benz VS30 Sprinter 519 CDI Black (3).jpg"
+  ]
+ },
+ "audi-q5": {
+  "prefer": "202[0-4]|facelift",
+  "avoid": "neue|201[6-9]"
+ },
+ "audi-q7": {
+  "prefer": "202[0-4]|facelift",
+  "avoid": "201[5-9]"
+ },
+ "vw-passat": {
+  "only": true,
+  "force": [
+   "File:2020 Volkswagen Passat GTE facelift 1.4 Front.jpg",
+   "File:2020 Volkswagen Passat GTE facelift 1.4 Rear.jpg",
+   "File:Volkswagen Passat (B8) – cockpit and steering wheel (interior).jpg",
+   "File:VW Passat GTE (B8, Facelift) – f 20062021.jpg"
+  ]
+ },
+ "vw-tiguan": {
+  "only": true,
+  "force": [
+   "File:2021 Volkswagen Tiguan R 2.0 Front.jpg",
+   "File:2021 Volkswagen Tiguan R 2.0 Rear.jpg",
+   "File:2020 Volkswagen Tiguan Life facelift Interior.jpg",
+   "File:2021 Volkswagen Tiguan R Line (1).jpg"
+  ]
+ },
+ "land-rover-defender": {
+  "only": true,
+  "force": [
+   "File:2024 Land Rover Defender 110 XS Edition D250 - 2996cc 3.0 (250PS) Diesel - Silicon Silver - 03-2024, Front.jpg",
+   "File:2024 Land Rover Defender 110 XS Edition D250 - 2996cc 3.0 (250PS) Diesel - Silicon Silver - 03-2024, Rear.jpg",
+   "File:2023 Land Rover Defender interior.jpg",
+   "File:2021 Land Rover Defender 110 P300 in Fuji White, front right.jpg"
+  ]
+ },
+ "mitsubishi-l200": {
+  "only": true,
+  "force": [
+   "File:Mitsubishi L200 Dakar CRS 2018 (45622029032).jpg",
+   "File:2016 Mitsubishi L200 Barbarian Di-D 2.4.jpg",
+   "File:Mitsubishi L200 (MSP15) 01.jpg",
+   "File:2016 Mitsubishi L200 Barbarian in Cosmos Black, front left, 06-08-2025.jpg"
+  ]
+ },
+ "ford-ranger": {
+  "only": true,
+  "force": [
+   "File:2017 Ford Ranger Wildtrak 4X4 facelift 3.2 Front.jpg",
+   "File:2017 Ford Ranger Wildtrak 4X4 facelift 3.2 Rear.jpg",
+   "File:2017 Ford Ranger Wildtrak.jpg"
+  ]
+ },
+ "ford-transit": {
+  "only": true,
+  "force": [
+   "File:2020 Ford Transit 350 Leader EcoBlue 2.0 facelift Front.jpg",
+   "File:2020 Ford Transit 350 Leader EcoBlue 2.0 facelift Rear.jpg",
+   "File:2015 Ford Transit 250 MR 148\", fR.jpg",
+   "File:Ford Transit (2019) Rutesheimer Autoschau 2026 IMG 6783.jpg"
+  ]
+ },
+ "lexus-lx": {
+  "only": true,
+  "force": [
+   "File:Lexus LX 570 URJ201W 2017 (3).jpg",
+   "File:2018 Lexus LX 570 Superior black rear.jpg",
+   "File:Lexus LX570 (DBA-URJ201W-GNZGK) interior.JPG",
+   "File:2018 Lexus LX 570 (facelift), front 3.24.23.jpg"
+  ]
+ },
+ "yamaha-mt-07": {
+  "only": true,
+  "force": [
+   "File:2021 Black Yamaha MT-07.jpg",
+   "File:Yamaha MT-07 2014-06-03 15.27.43.jpg",
+   "File:Yamaha MT-07 2014-06-03 15.28.00.jpg",
+   "File:Yamaha MT-07 2014-06-03 15.28.11.jpg"
+  ]
+ },
+ "yamaha-tenere-700": {
+  "only": true,
+  "force": [
+   "File:Ténéré 700 (1).jpg",
+   "File:Ténéré 700 (2).jpg",
+   "File:Yamaha Ténéré 700 in Athens on 11-1-2023.jpg",
+   "File:Yam Ten 700.jpg"
+  ]
+ },
+ "yamaha-tmax-560": {
+  "only": true,
+  "force": [
+   "File:Yamaha TMAX 560 (2).jpg",
+   "File:Yamaha TMAX 560 (1).jpg"
+  ]
+ },
+ "honda-cb650r": {
+  "only": true,
+  "force": [
+   "File:Honda CB650R Motorcycle 2021.jpg",
+   "File:2023 Honda CB650R Standard.jpg",
+   "File:2023 Honda CB650R E-Clutch.jpg",
+   "File:Honda CB650R at Sydney Harbor Bridge.jpg"
+  ]
+ },
+ "honda-nc750x": {
+  "only": true,
+  "force": [
+   "File:2021 Honda NC750X (DCT).jpg",
+   "File:Honda NC750XD RH09.jpg",
+   "File:Honda NC750XD RH09 Staufach und Tankeinfüllstutzen.jpg",
+   "File:HK 九龍灣 Kln Bay in December 2018 SSG 16 Sheung Yee Road motobike parking.jpg"
+  ]
+ },
+ "kawasaki-z900": {
+  "only": true,
+  "force": [
+   "File:Z9002020.jpg",
+   "File:Z900 2019 color model.jpg",
+   "File:KawasakiZ900.jpg",
+   "File:Kawasaki Z900 FrontView.jpg"
+  ]
+ },
+ "kawasaki-ninja-650": {
+  "only": true,
+  "force": [
+   "File:Kawasaki Ninja650.jpg",
+   "File:Kawasaki Ninja 650 2017.jpg",
+   "File:Kawasaki Ninja 650 SlantView.jpg",
+   "File:Kawasaki Ninja 650 at Children's Park Roundabout 20240427144336.jpg"
+  ]
+ },
+ "suzuki-v-strom-650": {
+  "only": true,
+  "force": [
+   "File:Suzuki V-Strom 650 XT MY2018.jpg",
+   "File:V-Strom 650XT.jpg",
+   "File:Someware - Flickr - CDCobra.jpg",
+   "File:2015 Suzuki V-Strom 650XT ABS.JPG"
+  ]
+ },
+ "suzuki-gsx-s1000": {
+  "only": true,
+  "force": [
+   "File:Suzuki gsxs1000.jpg",
+   "File:2015 Suzuki GSX-S1000 (20150610).jpg",
+   "File:Suzuki GSX-S 1000 (1).jpg",
+   "File:Suzuki GSX-S 1000 (2).jpg"
+  ]
+ },
+ "bmw-r-1250-gs": {
+  "only": true,
+  "force": [
+   "File:BMW R 1250 GS HP (1).jpg",
+   "File:BMW R1250GS HP 2018-10-12.jpg",
+   "File:Motocykl BMW GS Na Pomezi Pravy Bok.jpg",
+   "File:Motocykl BMW GS Na Pomezi Levy Bok.jpg"
+  ]
+ },
+ "bmw-s-1000-rr": {
+  "only": true,
+  "force": [
+   "File:BMW S 1000 RR, left view.jpg",
+   "File:BMW S 1000 RR, right view.jpg",
+   "File:BMW S 1000 RR HP4 (1).jpg"
+  ]
+ },
+ "triumph-tiger-900": {
+  "only": true,
+  "force": [
+   "File:Triumph Tiger 900 GT Pro (1).jpg",
+   "File:Triumph Tiger 900.jpg"
+  ]
+ },
+ "harley-fat-boy": {
+  "only": true,
+  "force": [
+   "File:Harley Davidson - Fat Boy 114 (2).jpg",
+   "File:Harley Davidson - Fat Boy 114 (3).jpg",
+   "File:Harley Davidson Fat Boy 2018 FLFBS.jpg"
+  ]
+ },
+ "royal-enfield-himalayan": {
+  "only": true,
+  "force": [
+   "File:Royal Enfield Himalayan (1).jpg",
+   "File:Royal Enfield Himalayan (2).jpg",
+   "File:Royal Enfield Himalayan DB2K5442.jpg",
+   "File:Royal Enfield Himalyana DB2K5445.jpg"
+  ]
+ },
+ "ducati-monster": {
+  "only": true,
+  "force": [
+   "File:Monster+ 937 a.jpg",
+   "File:Monster+ 937 b.jpg",
+   "File:Ducati Monster in 2024.jpg"
+  ]
+ },
+ "ducati-multistrada-v4": {
+  "only": true,
+  "force": [
+   "File:Ducati Multistrada V4 RS.jpg",
+   "File:Ducati Multistrada Piked Peak 2025.jpg",
+   "File:Ducati Multistrada V4 S '25.jpg"
+  ]
+ },
+ "yamaha-tracer-900": {
+  "only": true,
+  "force": [
+   "File:YAMAHA MT-09 Tracer, photographed in Takurazaki, October 2024 - 7956.jpg",
+   "File:Yamaha Tracer 900 in Athens on 11-2-2023.jpg",
+   "File:2026 Yamaha Tracer 9 GT.jpg"
+  ]
+ },
+ "ktm-390-duke": {
+  "only": true,
+  "force": [
+   "File:KTM Duke 390 my 2021.jpeg",
+   "File:2018 KTM 390 Duke.jpg",
+   "File:KTM 390 Duke in Athens on 11-1-2023.jpg",
+   "File:KTM All New Duke 390 2018 Rama 5.jpg"
+  ]
+ },
+ "bajaj-boxer-100": {
+  "only": true,
+  "force": [
+   "File:Bajaj Boxer S.JPG",
+   "File:Moto Bajaj.jpg"
+  ]
+ },
+ "bajaj-boxer-150": {
+  "only": true,
+  "force": [
+   "File:Bajaj Boxer BM 150.jpg"
+  ]
+ },
+ "haojue-hj150": {
+  "only": true,
+  "force": [
+   "File:Haojue HJ 150-9 2012 (9233660313).jpg",
+   "File:Une moto pour le déplacement.jpg",
+   "File:Moto pour transport personnel.jpg"
+  ]
+ },
+ "lifan-lf150": {
+  "only": true,
+  "force": [
+   "File:Lifan LF150-7 blue.jpg"
+  ]
+ },
+ "loncin-lx125": {
+  "only": true,
+  "force": [
+   "File:Loncin LX 125 2012 (16599631690).jpg"
+  ]
+ },
+ "honda-cg125": {
+  "only": true,
+  "force": [
+   "File:ホンダ CG125.jpg",
+   "File:Honda CG125 ES4.jpg",
+   "File:Honda CG125.jpg",
+   "File:Various models of Honda CG125.jpg"
+  ]
+ },
+ "yamaha-ybr125": {
+  "only": true,
+  "force": [
+   "File:Yamaha YBR125.jpg",
+   "File:Yamaha YBR125 (Fuel Injection - EU Spec).JPG",
+   "File:YBR125.JPG",
+   "File:Yamaha YBR 125 ED modelo 2012 (02).JPG"
+  ]
+ },
+ "yamaha-crux-110": {
+  "only": true,
+  "force": [
+   "File:Yamaha Crux R.JPG"
+  ]
+ },
+ "hero-splendor-plus": {
+  "only": true,
+  "force": [
+   "File:Hero bike.jpg",
+   "File:Hero Splendor+, Bangalore (2025).jpg"
+  ]
+ },
+ "lifan-tricycle-200zh": {
+  "only": true,
+  "force": [
+   "File:Nouakchott chinHändler Lifan-210ZH 20221027.jpg",
+   "File:Tricycle LIFAN RY200ZH Bolgatanga 2013 B003.jpg",
+   "File:Conducteur de Tricycle.jpg",
+   "File:Un moto transporteur de l'eau.jpg"
+  ]
+ },
+ "toyota-land-cruiser-79": {
+  "only": true,
+  "force": [
+   "File:Toyota Land Cruiser 79 Double cabine facelift 2024 version Afrique.jpg",
+   "File:Toyota Landcruiser HZJ-79 double cab in Kitgum Uganda.jpg",
+   "File:2022 Toyota Land Cruiser 79 pickup truck, 06-30-2024.jpg",
+   "File:Toyota Land Cruiser 79 Simple cabine GRJ facelift 2024 version Afrique.jpg"
+  ]
+ },
+ "toyota-fortuner": {
+  "only": true,
+  "force": [
+   "File:2020 Toyota Fortuner 2.4V.jpg",
+   "File:2020 Toyota Fortuner 2.4V (Rear).jpg",
+   "File:Toyota Fortuner 2.8 D-4D GR Sport 2024 (54085800902).jpg",
+   "File:2024 Toyota Fortuner 2.4 G 4x2 in Gray Metallic, front right, 06-27-2024.jpg"
+  ]
+ },
+ "nissan-sunny": {
+  "only": true,
+  "force": [
+   "File:Nissan Sunny, Al-'Ula (1).jpg",
+   "File:Nissan Sunny, Al-'Ula (2).jpg",
+   "File:2011 Nissan Sunny (front).jpg",
+   "File:2011 Nissan Sunny (rear).jpg"
+  ]
+ },
+ "hyundai-elantra": {
+  "only": true,
+  "force": [
+   "File:2022 White Hyundai ELANTRA (CN7) GLX 1.5 MPi China 001.jpg",
+   "File:2022 White Hyundai ELANTRA (CN7) GLX 1.5 MPi China 002.jpg",
+   "File:2020 Hyundai Elantra Interior.jpg",
+   "File:Hyundai Elantra 2.0 Value 2022 (52087095004).jpg"
+  ]
+ },
+ "kia-picanto": {
+  "only": true,
+  "force": [
+   "File:2024 Kia Picanto (JA) DSC 9153.jpg",
+   "File:2024 Kia Picanto (JA) Leonberg 2024 IMG 0915.jpg",
+   "File:2024 Kia Picanto (JA) Automesse Ludwigsburg 2024 IMG 1629.jpg",
+   "File:2024 Kia Picanto (JA) Leonberg 2024 IMG 0912.jpg"
+  ]
+ }
+}

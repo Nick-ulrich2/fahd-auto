@@ -1,0 +1,5 @@
+toyota-land-cruiser-79|Toyota Land Cruiser (J70)
+toyota-fortuner|Toyota Fortuner (AN150/AN160, 2020)|Toyota Fortuner (AN160)
+nissan-sunny|Nissan Sunny (N17)
+hyundai-elantra|Hyundai Elantra (CN7)
+kia-picanto|Kia Picanto (JA)

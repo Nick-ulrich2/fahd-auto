@@ -1,0 +1,113 @@
+/* Charte Fahd Auto : vert du blason, rouge de la flèche et du camion, fond clair et net. */
+@import "tailwindcss";
+
+@theme {
+  --color-brand-950: #04261a;
+  --color-brand-900: #063522;
+  --color-brand-800: #0b4a30;
+  --color-brand-700: #0e5c3b;
+  --color-brand-600: #137147;
+  --color-brand-100: #dcefe4;
+  --color-brand-50: #eef7f2;
+  --color-accent-700: #8a1222;
+  --color-accent-600: #a3162a;
+  --color-accent-500: #c21d33;
+  --color-accent-50: #fcebed;
+  --color-ink: #13201a;
+  --color-muted: #5a6a62;
+  --color-line: #e2e7e4;
+  --color-canvas: #f4f6f5;
+  --color-whatsapp: #1fa855;
+  --color-whatsapp-dark: #168a45;
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-arabic: "IBM Plex Sans Arabic", "Plus Jakarta Sans", system-ui, sans-serif;
+}
+
+@layer base {
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+html[lang="ar"] body {
+  font-family: var(--font-arabic);
+}
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+:focus-visible {
+  outline: 2px solid var(--color-accent-500);
+  outline-offset: 2px;
+}
+::selection {
+  background: var(--color-brand-100);
+}
+img {
+  max-width: 100%;
+}
+
+}
+
+/* Les nombres, références et prix restent lisibles de gauche à droite même en arabe. */
+.ltr-nums {
+  unicode-bidi: plaintext;
+}
+
+.scrollbar-none {
+  scrollbar-width: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+@utility container-x {
+  @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+@utility btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2.5 text-sm font-semibold transition-colors duration-150 disabled:opacity-50;
+}
+@utility btn-whatsapp {
+  @apply btn bg-whatsapp text-white hover:bg-whatsapp-dark;
+}
+@utility btn-primary {
+  @apply btn bg-brand-800 text-white hover:bg-brand-700;
+}
+@utility btn-accent {
+  @apply btn bg-accent-600 text-white hover:bg-accent-700;
+}
+@utility btn-outline {
+  @apply btn border border-line bg-white text-ink hover:border-brand-700 hover:text-brand-800;
+}
+@utility field {
+  @apply w-full rounded-lg border border-line bg-white px-3 py-2.5 text-sm outline-none transition focus:border-brand-700 focus:ring-2 focus:ring-brand-100;
+}
+@utility card {
+  @apply rounded-2xl border border-line bg-white;
+}
+@utility section-title {
+  @apply text-2xl font-extrabold tracking-tight text-ink sm:text-3xl;
+}
+@utility chip {
+  @apply inline-flex items-center gap-1.5 rounded-full border border-line bg-white px-3 py-1.5 text-sm font-medium text-ink transition hover:border-brand-700 hover:text-brand-800;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
